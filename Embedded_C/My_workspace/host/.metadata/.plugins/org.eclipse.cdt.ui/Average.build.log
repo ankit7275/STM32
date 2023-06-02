@@ -1,0 +1,15 @@
+06:11:38 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../main1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main1.d" -MT"main1.o" -o "main1.o" "../main1.c"
+Finished building: ../main1.c
+ 
+Building target: Average
+Invoking: GCC C Linker
+gcc  -o "Average" ./main1.o   
+Finished building target: Average
+ 
+
+06:11:40 Build Finished. 0 errors, 0 warnings. (took 1s.935ms)
+

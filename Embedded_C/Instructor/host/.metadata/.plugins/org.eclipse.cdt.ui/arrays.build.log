@@ -1,0 +1,6 @@
+06:41:45 **** Clean-only build of configuration Debug for project arrays ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+rm -rf main.d arrays.exe main.o 
+
+06:41:46 Build Finished. 0 errors, 0 warnings. (took 1s.879ms)
+

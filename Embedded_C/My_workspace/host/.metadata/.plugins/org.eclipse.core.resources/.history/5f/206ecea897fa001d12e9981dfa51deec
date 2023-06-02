@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<stdint.h>
+
+int main(){
+	uint8_t a,b;  //a and b will store number of elements in array1 and array 2
+	printf("Array Swapping Program\n");
+	uint8_t array1[a],array2[b];
+	printf("enter number of elements in array1 and array2\n");
+	scanf("%d%d",&a,&b);
+
+	for(uint8_t i=0;i<a;i++){
+		printf("enter elements %d of Array1: %d",i,scanf("%d",array1[i]));
+	}
+}

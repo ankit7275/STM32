@@ -1,0 +1,10 @@
+
+#include<stdio.h>
+//#include<stdint.h>
+int main(){
+	char msg1[]="how are you?\n";
+	printf("message is :%s\n",a);
+	printf("address of msg1 is: %p",&msg1);
+	printf("value of msg1 is: %p",msg1);
+	for(;;);
+}

@@ -1,0 +1,34 @@
+#include<stdio.h>
+#include<stdint.h>
+int main(){
+	uint32_t *pClkctrlReg=(uint32_t*)0x40023830;
+	uint32_t *pPortDModeReg=(uint32_t*)0x40020c00;
+	uint32_t *pPortDOutReg=(uint32_t*)0x40020c14;
+
+	//1. enable the clock for GPIO peripheral AHB1ENR;
+//	uint32_t temp = *pClkctrlReg ; //read operation
+//	temp = temp | 0x80; //modify
+//	*pClkctrlReg =temp; //write back
+	// Above code can be written in one line
+	// *pClkctrlReg = *pClkctrlReg | 0x80;
+	//we can write above code in c's shorthand notation.
+	*pClkctrlReg |= 0x80;
+
+	//2. configure the mode of the Io pin as output
+	//a. clear the 24th and 25th bits position(clear)
+	*pPortDModeReg &= 0xfcffffff;
+	//b. make 24th bit as 1(set)
+	*pPortDModeReg |= 0x01000000;
+
+	//3. set 12th bit of the output data register to make I/O pin-12 HIGH
+	*pPortDOutReg |= 0x1000;
+	while(1);
+
+
+
+
+
+
+
+
+}

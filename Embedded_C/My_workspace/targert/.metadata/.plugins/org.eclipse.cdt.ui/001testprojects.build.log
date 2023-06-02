@@ -1,0 +1,17 @@
+21:43:08 **** Incremental Build of configuration Debug for project 001testprojects ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "001testprojects.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/ankit/STM32CubeIDE/Embedded_C/My_workspace/targert/001testprojects/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001testprojects.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001testprojects.elf
+ 
+arm-none-eabi-size   001testprojects.elf 
+arm-none-eabi-objdump -h -S  001testprojects.elf  > "001testprojects.list"
+   text	   data	    bss	    dec	    hex	filename
+   9056	    108	   1588	  10752	   2a00	001testprojects.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001testprojects.list
+ 
+
+21:43:13 Build Finished. 0 errors, 0 warnings. (took 4s.525ms)
+

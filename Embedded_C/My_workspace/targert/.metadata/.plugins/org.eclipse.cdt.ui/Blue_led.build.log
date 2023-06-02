@@ -1,0 +1,10 @@
+05:42:18 **** Incremental Build of configuration Debug for project Blue_led ****
+make -j4 all 
+arm-none-eabi-size   Blue_led.elf 
+   text	   data	    bss	    dec	    hex	filename
+    880	      8	   1568	   2456	    998	Blue_led.elf
+Finished building: default.size.stdout
+ 
+
+05:42:20 Build Finished. 0 errors, 0 warnings. (took 1s.849ms)
+

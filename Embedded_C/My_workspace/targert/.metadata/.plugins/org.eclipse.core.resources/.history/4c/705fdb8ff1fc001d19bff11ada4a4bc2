@@ -1,0 +1,13 @@
+
+#include<stdio.h>
+//#include<stdint.h>
+int main(){
+	char msg1[]="how are you?\n";
+	char *pmsg="bitflash memory\n";
+	printf("message is :%s\n",msg1);
+	printf("address of msg1 is: %x\n",&msg1);
+	printf("message is :%s\n",pmsg);
+	printf("address of msg1 is: %x\n",&pmsg);
+
+	for(;;);
+}

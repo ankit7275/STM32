@@ -1,0 +1,87 @@
+21:45:08 **** Incremental Build of configuration Debug for project swapping_array ****
+make all 
+Building file: ../main.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: swapping_array
+Invoking: Cross GCC Linker
+gcc  -o "swapping_array" ./main.o   
+Finished building target: swapping_array
+ 
+21:45:13 **** Incremental Build of configuration Debug for project swapping_array ****
+make all 
+make: Nothing to be done for 'all'.
+21:46:20 **** Incremental Build of configuration Debug for project swapping_array ****
+make all 
+Building file: ../main.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: swapping_array
+Invoking: Cross GCC Linker
+gcc  -o "swapping_array" ./main.o   
+Finished building target: swapping_array
+ 
+21:46:54 **** Incremental Build of configuration Debug for project swapping_array ****
+make all 
+Building file: ../main.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: swapping_array
+Invoking: Cross GCC Linker
+gcc  -o "swapping_array" ./main.o   
+Finished building target: swapping_array
+ 
+21:47:07 **** Incremental Build of configuration Debug for project swapping_array ****
+make all 
+Building file: ../main.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: swapping_array
+Invoking: Cross GCC Linker
+gcc  -o "swapping_array" ./main.o   
+Finished building target: swapping_array
+ 
+22:03:38 **** Incremental Build of configuration Debug for project swapping_array ****
+make all 
+Building file: ../main.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: swapping_array
+Invoking: Cross GCC Linker
+gcc  -o "swapping_array" ./main.o   
+Finished building target: swapping_array
+ 
+22:04:11 **** Incremental Build of configuration Debug for project swapping_array ****
+make all 
+Building file: ../main.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: swapping_array
+Invoking: Cross GCC Linker
+gcc  -o "swapping_array" ./main.o   
+Finished building target: swapping_array
+ 
+22:10:04 **** Incremental Build of configuration Debug for project swapping_array ****
+make all 
+Building file: ../main.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: swapping_array
+Invoking: Cross GCC Linker
+gcc  -o "swapping_array" ./main.o   
+Finished building target: swapping_array
+ 

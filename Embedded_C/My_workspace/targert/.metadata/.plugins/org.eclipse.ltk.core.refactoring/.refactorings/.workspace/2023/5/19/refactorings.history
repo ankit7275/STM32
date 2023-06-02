@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;000add&apos; to &apos;volatile_keyword&apos;" description="Rename resource &apos;000add&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/000add" name="volatile_keyword" stamp="1683417722724" updateReferences="true"/>
+</session>

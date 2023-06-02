@@ -1,0 +1,15 @@
+#include "main.h"
+#include<stdio.h>
+#include<stdint.h>
+int main(){
+	RCC_AHB1ENR_t *pClkctrlReg = (RCC_AHB1ENR_t *)0x40023830;
+	pClkctrlReg -> GPIOD_EN = 1; //enabling rcc for RCC_AHB1ENR_t
+
+	GPIOd_MODE_t *pPortDModeReg = (GPIOd_MODE_t*)0x40020C00;
+	pPortDModeReg -> 3;
+
+	GPIOd_ODR_t *pPortDOutReg = (GPIOd_ODR_t*)0x40020C14;
+	pPortDOutReg -> ODR15 = 1;
+	while();
+
+}

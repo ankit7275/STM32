@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main(){
+	float num=154.547895413;
+	printf("Number = %f",num);
+	return 0;
+}

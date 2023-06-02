@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<stdint.h>
+void returnarray(*pArray,uint8_t length);
+int main(){
+	uint8_t somedata[5];
+	for(uint8_t i=0; i<5;i++){
+		somedata[i]=i+1;
+	}
+	uint8_t length= sizeof(somedata)/sizeof(somedata[0]);
+
+	returnarray(somedata,length);
+	return 0;
+}
+
+void returnarray(uint8_t *pArray,uint8_t length){
+	for(uint8_t i =0; i<length;i++){
+			printf("%d\t",pArray[i]);
+		}
+}

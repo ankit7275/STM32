@@ -1,0 +1,8 @@
+
+#include<stdio.h>
+//#include<stdint.h>
+int main(){
+	char a[]="how are you?\n";
+	printf("kuch bhi %s",a);
+	for(;;);
+}

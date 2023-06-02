@@ -1,0 +1,4 @@
+#include<stdio.h>
+int main(){
+	printf("har har mahadev\n");
+}

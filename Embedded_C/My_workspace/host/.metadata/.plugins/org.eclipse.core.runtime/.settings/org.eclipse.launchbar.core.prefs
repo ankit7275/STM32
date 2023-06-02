@@ -1,0 +1,11 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Average,org.eclipse.launchbar.core.descriptorType.default\:000TestProject,org.eclipse.launchbar.core.descriptorType.default\:swapping_array
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:000TestProject/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:000TestProject/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Average/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Average/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:swapping_array/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:swapping_array/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

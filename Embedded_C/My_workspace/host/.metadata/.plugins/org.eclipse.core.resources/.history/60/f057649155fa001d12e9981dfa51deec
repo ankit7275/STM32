@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<stdint.h>
+
+int main(){
+	uint32_t ankit[100];
+	printf("size of the aray is %d\n",sizeof(ankit));
+	printf("base address of array is %d",ankit);
+	return 0;
+}

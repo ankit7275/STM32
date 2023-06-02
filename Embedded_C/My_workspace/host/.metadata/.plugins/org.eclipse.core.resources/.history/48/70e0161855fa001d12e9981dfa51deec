@@ -1,0 +1,8 @@
+#include<stdio.h>
+#include<stdint.h>
+
+int main(){
+	uint8_t ankit[100];
+	printf("size of the aray is %d\n",sizeof(ankit));
+	return 0;
+}
